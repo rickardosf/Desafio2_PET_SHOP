@@ -88,4 +88,12 @@
         android:text="@string/btnCalcular"
         android:id="@+id/btnCalcular"
         android:onClick=""/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$0,00"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/tamanho_valor"
+        android:id="@+id/txtValor"/>
 </LinearLayout>

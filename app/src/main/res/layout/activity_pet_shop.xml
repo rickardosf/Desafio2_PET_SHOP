@@ -27,7 +27,7 @@
             android:text="@string/border_collie"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton"
+            android:id="@+id/rdBorder"
             android:layout_weight="1"
             android:checked="true" />
 
@@ -35,21 +35,21 @@
             android:text="@string/pit_bull"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton4"
+            android:id="@+id/rdPitBull"
             android:layout_weight="1" />
 
         <RadioButton
             android:text="@string/pastor_alemao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton3"
+            android:id="@+id/rdPAlemao"
             android:layout_weight="1" />
 
         <RadioButton
             android:text="@string/pastor_canadense"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton2"
+            android:id="@+id/rdPCanadense"
             android:layout_weight="1" />
     </RadioGroup>
 
@@ -62,14 +62,14 @@
             android:text="@string/femea"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/checkBox"
+            android:id="@+id/cbFemea"
             android:layout_weight="1" />
 
         <CheckBox
             android:text="@string/adestrado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/checkBox3"
+            android:id="@+id/cbAdestrado"
             android:layout_weight="1"
             android:checked="false" />
 
@@ -77,7 +77,7 @@
             android:text="@string/com_todas_as_vacinas_em_dia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/checkBox2"
+            android:id="@+id/cbVacina"
             android:layout_weight="1"
             android:checked="true" />
     </RadioGroup>
@@ -95,5 +95,6 @@
         android:text="R$0,00"
         android:layout_gravity="center_horizontal"
         android:textSize="@dimen/tamanho_valor"
+        android:layout_marginTop="@dimen/margem_top"
         android:id="@+id/txtValor"/>
 </LinearLayout>
